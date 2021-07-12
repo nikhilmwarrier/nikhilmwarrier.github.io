@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	background: #333;
+	color: #fff;
+	font-family: "Fira Code", monospace;
+}
+
+main {
+	width: 85ch;
+	max-width: 90%;
+	margin: auto;
+}
+
+h1 {
+	font-weight: normal;
+	user-select: none;
+}
+
+.h1-text,
+.h1-decoration {
+	font-size: 1.2rem;
+}
+
+.h1-decoration,
+.section-decoration {
+	color: #707070;
+	user-select: none;
+}
+
+.h1-name {
+	font-size: 2.5rem;
+	opacity: #d6d6d6;
+}
+
+section,
+footer {
+	margin: 2rem 0;
+}
+
+p {
+	font-size: 1rem;
+	line-height: 1.8rem;
+	color: #ddd;
+}
+
+a {
+	color: cyan;
+	text-decoration: none;
+}
+
+.indented {
+	padding-left: 1rem;
+}
+
+::selection {
+	background: rgba(0, 0, 0, 0.3);
+}
+
+blockquote {
+	font-size: 1rem;
+	border-left: 5px solid #555;
+	color: #ddd;
+}
